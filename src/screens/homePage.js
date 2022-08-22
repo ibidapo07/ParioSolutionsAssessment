@@ -155,7 +155,8 @@ function HomePage(navigation){
         >
             <Stack.Screen name="Home" component={Home}/>
             <Stack.Screen name="My Account" component={Profile} options={{
-                headerShown : false
+                headerShown : false,
+                animation : "fade"
             }}/>
         </Stack.Navigator>
       

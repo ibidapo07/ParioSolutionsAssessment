@@ -10,7 +10,7 @@ function Category({children,style,text, onTap}){
                 {children}
             </View>
 
-            <Text style={{color:"#189AB4"}}>{text}</Text>
+            <Text style={{color:"#189AB4", textAlign: "center", width: 100}}>{text}</Text>
             </View>
         </TouchableOpacity>
     );
